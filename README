@@ -1,0 +1,13 @@
+Two simple utilities for communicating with YIMP and YEXP on the HP41CL:
+
+CLWriter.exe: send a binary file to the HP41CL.
+
+CLReader.exe: receive a binary file from the HP41CL.
+
+Compile these with
+
+c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc.exe /t:exe CLWriter.cs
+
+c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\csc.exe /t:exe CLReader.cs
+
+Note: Adjust path to .net framework as necessary.
